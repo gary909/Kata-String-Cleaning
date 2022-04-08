@@ -1,5 +1,6 @@
 function stringClean(s) {
-    // Function will return the cleaned string
+    var noNum = s.replace(/[0-9]/g, '');
+    return noNum;
 }
 
 console.log(stringClean("")); // ""
